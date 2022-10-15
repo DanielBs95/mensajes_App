@@ -20,8 +20,8 @@ public class Inicio {
             System.out.println(" Aplicacion de Mensajes");
             System.out.println("1. Crear un mensaje");
             System.out.println("2. Listar mensaje");
-            System.out.println("3. Editar mensaje");
-            System.out.println("4. Eliminar mensaje");
+            System.out.println("3. Eliminar mensaje");
+            System.out.println("4. Editar mensaje");
             System.out.println("5. Salir");
             //Aqui usuario eligue opcion
             System.out.println("Eliga una opcion");
@@ -35,10 +35,10 @@ public class Inicio {
                     listarMensajes();
                     break;
                 case 3:
-                    editarMensaje();
+                    borrarMensajes();
                     break;
                 case 4:
-                    borrarMensajes();
+                    editarMensaje();
                     break;
                 default:
                     break;
